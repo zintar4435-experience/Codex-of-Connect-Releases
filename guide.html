@@ -182,7 +182,9 @@
       </div>
       <div class="plat windows-only">
         <span class="tag">Windows</span>
-        <ul class="clean"><li data-i="s1w1"></li><li data-i="s1w2"></li><li data-i="s1w3"></li></ul>
+        <ul class="clean"><li data-i="s1w1"></li><li data-i="s1w2"></li><li data-i="s1w3"></li><li data-i="s1w4"></li></ul>
+        <div class="note"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><path d="M4 7.5V18a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 20 18V9a1.5 1.5 0 0 0-1.5-1.5h-7L9.8 5.6a1.5 1.5 0 0 0-1.1-.5H5.5A1.5 1.5 0 0 0 4 6.6v.9Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span><p data-i="s1wplace"></p></div>
+        <div class="note danger"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3 2.5 20h19L12 3Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M12 10v4m0 3h.01" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span><p data-i="s1wavoid"></p></div>
       </div>
     </section>
 
@@ -258,9 +260,12 @@
       s1a1: 'Скачайте <b>APK</b> и откройте его.',
       s1a2: 'Если система предупредит — разрешите <b>установку из этого источника</b>.',
       s1a3: 'Обновление ставится <b>поверх</b> старой версии — данные и ключи сохраняются.',
-      s1w1: 'Распакуйте <b>zip</b> в любую папку.',
+      s1w1: 'Распакуйте <b>zip целиком</b> в папку, которой владеете вы, — например <span class="path">C:\\CodexOfConnect</span>. На рабочий стол — только ярлык.',
       s1w2: 'Запустите <span class="path">codex_of_connect.exe</span>.',
       s1w3: 'Файлы <span class="path">sing-box.exe</span>, <span class="path">libcronet.dll</span> и <span class="path">wintun.dll</span> рядом — это движок. <b>Не удаляйте их.</b>',
+      s1w4: '<b>Никогда не запускайте прямо из zip-архива.</b> Проводник тихо распаковывает его во временную папку: обновление встанет туда и исчезнет, а двойной клик по архиву каждый раз будет открывать старую версию.',
+      s1wplace: '<b>Куда класть.</b> Приложение обновляется, копируя новую сборку поверх своей папки, — поэтому папка должна принадлежать вам и быть записываемой без прав администратора. Подойдёт <span class="path">C:\\CodexOfConnect</span> или <span class="path">%LOCALAPPDATA%\\Programs\\CodexOfConnect</span>.',
+      s1wavoid: '<b>Куда класть нельзя:</b> <span class="path">Program Files</span> (папка защищена — апдейтер честно откажет); Рабочий стол/Документы/Загрузки при включённом <b>OneDrive</b> (синхронизатор держит файлы, замена срывается); флешки и сетевые диски. И не переносите папку после установки — автозапуск помнит путь.',
       s2h: 'Добавьте сервер (ключ)',
       s2sub: 'Экран <span class="path">Profiles</span> → кнопка <b>Add profile</b>. Способы:',
       s2i1: '<b>Paste from clipboard</b> — вставить ключ из буфера.',
@@ -295,7 +300,7 @@
       s6i4: 'Виджеты <b>подстраиваются под размер</b> ячейки лаунчера.',
       updH: 'Обновления',
       updA: 'Скачайте новый APK и установите <b>поверх</b> — ключи и настройки сохранятся.',
-      updW: 'Встроенный апдейтер: две кнопки — <b>скачать</b> и <b>установить поверх</b>.',
+      updW: 'Встроенный апдейтер: две кнопки — <b>скачать</b> и <b>установить поверх</b>. Он копирует новую сборку <b>поверх своей папки</b>, поэтому папка должна быть записываемой без прав администратора (см. Шаг 1). Если обновление не встало, рядом с exe останется <span class="path">coc-update.log</span> — пришлите его.',
       faqH: 'Частые вопросы',
       faq1q: 'Подключился, но сайты открываются как обычно — VPN не работает?',
       faq1a: 'Скорее всего вы не выбрали приложения — это <b>Шаг&nbsp;4</b>. Android: <span class="path">Настройки → Split tunneling</span>. Windows: <span class="path">Настройки → App Tunnel</span>.',
@@ -323,9 +328,12 @@
       s1a1: 'Download the <b>APK</b> and open it.',
       s1a2: 'If prompted, allow <b>installing from this source</b>.',
       s1a3: 'Updates install <b>over</b> the old version — your data and keys are kept.',
-      s1w1: 'Unpack the <b>zip</b> into any folder.',
+      s1w1: 'Unpack the <b>whole zip</b> into a folder you own — e.g. <span class="path">C:\\CodexOfConnect</span>. Put only a shortcut on the desktop.',
       s1w2: 'Run <span class="path">codex_of_connect.exe</span>.',
       s1w3: 'The files <span class="path">sing-box.exe</span>, <span class="path">libcronet.dll</span> and <span class="path">wintun.dll</span> next to it are the engine. <b>Don’t delete them.</b>',
+      s1w4: '<b>Never run the app straight from the zip archive.</b> Explorer silently unpacks it into a temp folder: an update would land there and vanish, and double-clicking the archive would reopen the old version every time.',
+      s1wplace: '<b>Where to put it.</b> The app updates by copying the new build over its own folder, so the folder must belong to you and be writable without admin rights. <span class="path">C:\\CodexOfConnect</span> or <span class="path">%LOCALAPPDATA%\\Programs\\CodexOfConnect</span> both work.',
+      s1wavoid: '<b>Where NOT to put it:</b> <span class="path">Program Files</span> (protected — the updater will honestly refuse); Desktop/Documents/Downloads with <b>OneDrive</b> on (the sync agent holds files open, replacement fails); flash drives and network shares. And don’t move the folder afterwards — autostart remembers the path.',
       s2h: 'Add a server (key)',
       s2sub: 'The <span class="path">Profiles</span> screen → <b>Add profile</b>. Options:',
       s2i1: '<b>Paste from clipboard</b> — paste a key from the clipboard.',
@@ -360,7 +368,7 @@
       s6i4: 'Widgets <b>adapt to the size</b> of your launcher’s cell.',
       updH: 'Updates',
       updA: 'Download the new APK and install it <b>over</b> the old one — keys and settings are kept.',
-      updW: 'Built-in updater: two buttons — <b>download</b> and <b>install over</b>.',
+      updW: 'Built-in updater: two buttons — <b>download</b> and <b>install over</b>. It copies the new build <b>over its own folder</b>, so the folder must be writable without admin rights (see Step 1). If an update fails, <span class="path">coc-update.log</span> is left next to the exe — send it to us.',
       faqH: 'FAQ',
       faq1q: 'Connected, but sites open as usual — the VPN isn’t working?',
       faq1a: 'Most likely you haven’t picked any apps — that is <b>Step&nbsp;4</b>. Android: <span class="path">Settings → Split tunneling</span>. Windows: <span class="path">Settings → App Tunnel</span>.',

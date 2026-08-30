@@ -1,0 +1,31 @@
+<title>Codex of — инструкции</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { --bg:#F6F8F9; --card:#FFFFFF; --ink:#141A1E; --mute:#6B767C; --line:#DCE3E5; --accent:#0B7C6E; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#101416; --card:#181E21; --ink:#E8ECEE; --mute:#8A959B; --line:#2A3237; --accent:#37B8A5; }
+  }
+  body { background:var(--bg); color:var(--ink); font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+         margin:0; padding:48px 20px; display:flex; justify-content:center; }
+  main { max-width:640px; width:100%; }
+  h1 { font-size:1.5rem; margin:0 0 6px; }
+  .sub { color:var(--mute); margin:0 0 28px; }
+  a.card { display:block; background:var(--card); border:1px solid var(--line); border-radius:14px;
+           padding:20px 22px; margin-bottom:14px; text-decoration:none; color:inherit;
+           transition:border-color .15s; }
+  a.card:hover { border-color:var(--accent); }
+  a.card b { color:var(--accent); font-size:1.06rem; }
+  a.card span { display:block; color:var(--mute); margin-top:4px; font-size:.93rem; }
+  .foot { color:var(--mute); font-size:.9rem; margin-top:24px; }
+  .foot a { color:var(--accent); }
+</style>
+<main>
+  <h1>Codex of — инструкции</h1>
+  <p class="sub">Все руководства в одном месте. Открываются как обычные страницы.</p>
+  <a class="card" href="guide.html"><b>Приложение Codex of Connect</b>
+    <span>Как установить и пользоваться — Android и Windows, RU/EN. Куда ставить на ПК, чтобы работало обновление.</span></a>
+  <a class="card" href="setup-guide.html"><b>Панель Codex of Admin</b>
+    <span>Установка своего сервера с нуля: домены и A-записи, схемы подключения (Reality, «за настоящим сайтом», NaiveProxy, SSH), проверка.</span></a>
+  <p class="foot">Сборки приложения — во вкладке <a href="https://github.com/zintar4435-experience/Codex-of-Connect-Releases/releases">Releases</a>.</p>
+</main>

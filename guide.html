@@ -170,61 +170,116 @@
       <p class="lede" data-i="lede"></p>
       <div class="keystone">
         <h2 data-i="keyH"></h2>
-        <p data-i="keyP"></p>
+        <p class="android-only" data-i="keyPa"></p>
+        <p class="windows-only" data-i="keyPw"></p>
       </div>
     </div>
 
     <section>
-      <div class="kicker"><span class="num">01</span><h2 data-i="s1h"></h2></div>
+      <div class="kicker"><span class="num"></span><h2 data-i="instH"></h2></div>
       <div class="plat android-only">
         <span class="tag">Android</span>
-        <ul class="clean"><li data-i="s1a1"></li><li data-i="s1a2"></li><li data-i="s1a3"></li></ul>
+        <ul class="clean"><li data-i="instA1"></li><li data-i="instA2"></li><li data-i="instA3"></li></ul>
       </div>
       <div class="plat windows-only">
         <span class="tag">Windows</span>
-        <ul class="clean"><li data-i="s1w1"></li><li data-i="s1w2"></li><li data-i="s1w3"></li><li data-i="s1w4"></li></ul>
-        <div class="note"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><path d="M4 7.5V18a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 20 18V9a1.5 1.5 0 0 0-1.5-1.5h-7L9.8 5.6a1.5 1.5 0 0 0-1.1-.5H5.5A1.5 1.5 0 0 0 4 6.6v.9Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span><p data-i="s1wplace"></p></div>
-        <div class="note danger"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3 2.5 20h19L12 3Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M12 10v4m0 3h.01" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span><p data-i="s1wavoid"></p></div>
+        <ul class="clean"><li data-i="instW1"></li><li data-i="instW2"></li><li data-i="instW3"></li></ul>
+        <div class="note"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><path d="M4 7.5V18a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 20 18V9a1.5 1.5 0 0 0-1.5-1.5h-7L9.8 5.6a1.5 1.5 0 0 0-1.1-.5H5.5A1.5 1.5 0 0 0 4 6.6v.9Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></svg></span><p data-i="instWplace"></p></div>
+        <div class="note danger"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3 2.5 20h19L12 3Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M12 10v4m0 3h.01" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span><p data-i="instWavoid"></p></div>
       </div>
     </section>
 
     <section>
-      <div class="kicker"><span class="num">02</span><h2 data-i="s2h"></h2></div>
-      <p class="sub" style="color:var(--mute); margin:2px 0 14px" data-i="s2sub"></p>
-      <ul class="clean"><li data-i="s2i1"></li><li data-i="s2i2"></li><li data-i="s2i3"></li><li data-i="s2i4"></li></ul>
-      <div class="note"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 8h.01M11 12h1v4h1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><p data-i="s2note"></p></div>
+      <div class="kicker"><span class="num"></span><h2 data-i="srvH"></h2></div>
+      <p class="sub" style="color:var(--mute); margin:2px 0 14px" data-i="srvSub"></p>
+      <ul class="clean">
+        <li data-i="srv1"></li>
+        <li data-i="srv2"></li>
+        <li class="android-only" data-i="srv3"></li>
+        <li data-i="srv4"></li>
+        <li data-i="srv5"></li>
+      </ul>
+      <div class="note"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 8h.01M11 12h1v4h1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><p data-i="srvNote"></p></div>
+    </section>
+
+
+    <section class="android-only">
+      <div class="kicker"><span class="num"></span><h2 data-i="appsH"></h2></div>
+      <p class="sub" style="color:var(--mute); margin:2px 0 14px" data-i="appsSub"></p>
+      <ul class="clean"><li data-i="apps1"></li><li data-i="apps2"></li><li data-i="apps3"></li></ul>
+      <div class="note danger"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3 2.5 20h19L12 3Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M12 10v4m0 3h.01" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span><p data-i="appsBanks"></p></div>
+    </section>
+
+    <section class="windows-only">
+      <div class="kicker"><span class="num"></span><h2 data-i="modeH"></h2></div>
+      <p class="sub" style="color:var(--mute); margin:2px 0 14px" data-i="modeSub"></p>
+      <ul class="clean"><li data-i="mode1"></li><li data-i="mode2"></li><li data-i="mode3"></li></ul>
+      <div class="note"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.8"/><path d="M12 8h.01M11 12h1v4h1" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span><p data-i="modeNote"></p></div>
     </section>
 
     <section>
-      <div class="kicker"><span class="num">03</span><h2 data-i="s3h"></h2></div>
-      <ul class="clean"><li data-i="s3i1"></li><li data-i="s3i2"></li><li data-i="s3i3"></li><li data-i="s3i4"></li></ul>
+      <div class="kicker"><span class="num"></span><h2 data-i="conH"></h2></div>
+      <ul class="clean">
+        <li data-i="con1"></li>
+        <li data-i="con2"></li>
+        <li data-i="con3"></li>
+        <li class="android-only" data-i="con4a"></li>
+        <li data-i="con5"></li>
+      </ul>
     </section>
 
-    <section>
-      <div class="kicker"><span class="num">04</span><h2 data-i="s4h"></h2></div>
-      <p class="sub" style="color:var(--mute); margin:2px 0 14px" data-i="s4sub"></p>
-      <div class="plat android-only">
-        <span class="tag">Android</span>
-        <ul class="clean"><li data-i="s4a1"></li><li data-i="s4a2"></li><li data-i="s4a3"></li></ul>
+    <section class="windows-only">
+      <div class="kicker"><span class="num"></span><h2 data-i="fullH"></h2></div>
+      <p class="sub" style="color:var(--mute); margin:2px 0 14px" data-i="fullSub"></p>
+      <div class="plat">
+        <span class="tag" data-i="exclTag"></span>
+        <ul class="clean"><li data-i="excl1"></li><li data-i="excl2"></li><li data-i="excl3"></li></ul>
       </div>
-      <div class="plat windows-only">
-        <span class="tag">Windows · App Tunnel</span>
-        <ul class="clean"><li data-i="s4w1"></li><li data-i="s4w2"></li><li data-i="s4w3"></li><li data-i="s4w4"></li></ul>
-        <div class="note"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3 5 6v5c0 4 3 7.4 7 8.5 4-1.1 7-4.5 7-8.5V6l-7-3Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="m9 12 2 2 4-4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span><p data-i="s4wnote"></p></div>
+      <div class="plat">
+        <span class="tag" data-i="protTag"></span>
+        <ul class="clean"><li data-i="prot1"></li><li data-i="prot2"></li><li data-i="prot3"></li><li data-i="prot4"></li></ul>
       </div>
-      <div class="note danger"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3 2.5 20h19L12 3Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M12 10v4m0 3h.01" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span><p data-i="s4danger"></p></div>
+      <div class="note"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3 5 6v5c0 4 3 7.4 7 8.5 4-1.1 7-4.5 7-8.5V6l-7-3Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="m9 12 2 2 4-4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span><p data-i="fullNote"></p></div>
+    </section>
+
+    <section class="windows-only">
+      <div class="kicker"><span class="num"></span><h2 data-i="atH"></h2></div>
+      <p class="sub" style="color:var(--mute); margin:2px 0 14px" data-i="atSub"></p>
+      <ul class="clean"><li data-i="at1"></li><li data-i="at2"></li><li data-i="at3"></li><li data-i="at4"></li></ul>
     </section>
 
     <section>
-      <div class="kicker"><span class="num">05</span><h2 data-i="s5h"></h2></div>
-      <p data-i="s5p"></p>
-      <div class="plat windows-only"><span class="tag">Windows</span><p style="margin:0" data-i="s5w"></p></div>
+      <div class="kicker"><span class="num"></span><h2 data-i="blkH"></h2></div>
+      <p data-i="blkP"></p>
+      <ul class="clean"><li data-i="blk1"></li><li data-i="blk2"></li><li data-i="blk3"></li></ul>
     </section>
 
     <section class="android-only">
-      <div class="kicker"><span class="num">06</span><h2 data-i="s6h"></h2></div>
-      <p class="sub" style="color:var(--mute); margin:2px 0 14px" data-i="s6sub"></p>
-      <ul class="clean"><li data-i="s6i1"></li><li data-i="s6i2"></li><li data-i="s6i3"></li><li data-i="s6i4"></li></ul>
+      <div class="kicker"><span class="num"></span><h2 data-i="bgH"></h2></div>
+      <p data-i="bgP"></p>
+      <ul class="clean"><li data-i="bg1"></li><li data-i="bg2"></li><li data-i="bg3"></li><li data-i="bg4"></li><li data-i="bg5"></li></ul>
+    </section>
+
+    <section class="android-only">
+      <div class="kicker"><span class="num"></span><h2 data-i="wdgH"></h2></div>
+      <ul class="clean"><li data-i="wdg1"></li><li data-i="wdg2"></li><li data-i="wdg3"></li></ul>
+    </section>
+
+    <section class="windows-only">
+      <div class="kicker"><span class="num"></span><h2 data-i="trayH"></h2></div>
+      <ul class="clean"><li data-i="tray1"></li><li data-i="tray2"></li><li data-i="tray3"></li></ul>
+    </section>
+
+    <section>
+      <div class="kicker"><span class="num"></span><h2 data-i="bakH"></h2></div>
+      <ul class="clean"><li data-i="bak1"></li><li data-i="bak2"></li><li data-i="bak3"></li></ul>
+      <div class="note danger"><span class="ic"><svg viewBox="0 0 24 24" fill="none"><path d="M12 3 2.5 20h19L12 3Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M12 10v4m0 3h.01" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span><p data-i="bakNote"></p></div>
+    </section>
+
+    <section>
+      <div class="kicker"><span class="num"></span><h2 data-i="absH"></h2></div>
+      <p data-i="absP"></p>
+      <ul class="clean"><li data-i="abs1"></li><li data-i="abs2"></li></ul>
     </section>
 
     <section>
@@ -235,12 +290,14 @@
 
     <section>
       <h2 class="plain" data-i="faqH"></h2>
-      <details open><summary><span class="q">01</span><span data-i="faq1q"></span><span class="chev"><svg viewBox="0 0 24 24" fill="none"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></summary><div class="body"><p data-i="faq1a"></p></div></details>
-      <details><summary><span class="q">02</span><span data-i="faq2q"></span><span class="chev"><svg viewBox="0 0 24 24" fill="none"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></summary><div class="body"><p data-i="faq2a"></p></div></details>
-      <details><summary><span class="q">03</span><span data-i="faq3q"></span><span class="chev"><svg viewBox="0 0 24 24" fill="none"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></summary><div class="body"><p data-i="faq3a"></p></div></details>
-      <details><summary><span class="q">04</span><span data-i="faq4q"></span><span class="chev"><svg viewBox="0 0 24 24" fill="none"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></summary><div class="body"><p data-i="faq4a"></p></div></details>
-      <details><summary><span class="q">05</span><span data-i="faq5q"></span><span class="chev"><svg viewBox="0 0 24 24" fill="none"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></summary><div class="body"><p data-i="faq5a"></p></div></details>
-      <details class="android-only"><summary><span class="q">06</span><span data-i="faq6q"></span><span class="chev"><svg viewBox="0 0 24 24" fill="none"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></summary><div class="body"><p data-i="faq6a"></p></div></details>
+      <details open><summary><span class="q"></span><span data-i="faq1q"></span><span class="chev"><svg viewBox="0 0 24 24" fill="none"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></summary><div class="body"><p class="android-only" data-i="faq1aA"></p><p class="windows-only" data-i="faq1aW"></p></div></details>
+      <details><summary><span class="q"></span><span data-i="faq2q"></span><span class="chev"><svg viewBox="0 0 24 24" fill="none"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></summary><div class="body"><p data-i="faq2a"></p></div></details>
+      <details><summary><span class="q"></span><span data-i="faq3q"></span><span class="chev"><svg viewBox="0 0 24 24" fill="none"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></summary><div class="body"><p data-i="faq3a"></p></div></details>
+      <details class="windows-only"><summary><span class="q"></span><span data-i="faq4q"></span><span class="chev"><svg viewBox="0 0 24 24" fill="none"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></summary><div class="body"><p data-i="faq4a"></p></div></details>
+      <details class="windows-only"><summary><span class="q"></span><span data-i="faq5q"></span><span class="chev"><svg viewBox="0 0 24 24" fill="none"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></summary><div class="body"><p data-i="faq5a"></p></div></details>
+      <details class="android-only"><summary><span class="q"></span><span data-i="faq6q"></span><span class="chev"><svg viewBox="0 0 24 24" fill="none"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></summary><div class="body"><p data-i="faq6a"></p></div></details>
+      <details><summary><span class="q"></span><span data-i="faq7q"></span><span class="chev"><svg viewBox="0 0 24 24" fill="none"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></summary><div class="body"><p data-i="faq7a"></p></div></details>
+      <details><summary><span class="q"></span><span data-i="faq8q"></span><span class="chev"><svg viewBox="0 0 24 24" fill="none"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span></summary><div class="body"><p data-i="faq8a"></p></div></details>
     </section>
   </div>
 
@@ -253,137 +310,261 @@
       brandSub: '· инструкция',
       eyebrow: 'Личный VPN · Android и Windows',
       title: 'Как пользоваться Codex&nbsp;of&nbsp;Connect',
-      lede: 'Пять шагов от установки до рабочего туннеля — и ответы на вопросы, которые возникают у всех в первый раз.',
-      keyH: 'Главное, что нужно понять сразу',
-      keyP: 'Через VPN идут <strong>только те приложения, которые вы сами отметите</strong>. Пока вы не выбрали ни одного — подключение работает, но весь трафик идёт как обычно, мимо VPN. Это не баг, а защита. Выбор приложений — это <strong>Шаг&nbsp;4</strong>, без него «ничего не меняется».',
-      s1h: 'Установите приложение',
-      s1a1: 'Скачайте <b>APK</b> и откройте его.',
-      s1a2: 'Если система предупредит — разрешите <b>установку из этого источника</b>.',
-      s1a3: 'Обновление ставится <b>поверх</b> старой версии — данные и ключи сохраняются.',
-      s1w1: 'Распакуйте <b>zip целиком</b> в папку, которой владеете вы, — например <span class="path">C:\\CodexOfConnect</span>. На рабочий стол — только ярлык.',
-      s1w2: 'Запустите <span class="path">codex_of_connect.exe</span>.',
-      s1w3: 'Файлы <span class="path">sing-box.exe</span>, <span class="path">libcronet.dll</span> и <span class="path">wintun.dll</span> рядом — это движок. <b>Не удаляйте их.</b>',
-      s1w4: '<b>Никогда не запускайте прямо из zip-архива.</b> Проводник тихо распаковывает его во временную папку: обновление встанет туда и исчезнет, а двойной клик по архиву каждый раз будет открывать старую версию.',
-      s1wplace: '<b>Куда класть.</b> Приложение обновляется, копируя новую сборку поверх своей папки, — поэтому папка должна принадлежать вам и быть записываемой без прав администратора. Подойдёт <span class="path">C:\\CodexOfConnect</span> или <span class="path">%LOCALAPPDATA%\\Programs\\CodexOfConnect</span>.',
-      s1wavoid: '<b>Куда класть нельзя:</b> <span class="path">Program Files</span> (папка защищена — апдейтер честно откажет); Рабочий стол/Документы/Загрузки при включённом <b>OneDrive</b> (синхронизатор держит файлы, замена срывается); флешки и сетевые диски. И не переносите папку после установки — автозапуск помнит путь.',
-      s2h: 'Добавьте сервер (ключ)',
-      s2sub: 'Экран <span class="path">Profiles</span> → кнопка <b>Add profile</b>. Способы:',
-      s2i1: '<b>Paste from clipboard</b> — вставить ключ из буфера.',
-      s2i2: '<b>Paste URL or link</b> — ссылка-подписка или прямой узел <code>vless://</code> / <code>naive://</code>.',
-      s2i3: '<b>Import config file</b> — файл со списком ссылок.',
-      s2i4: '<b>Manual configuration</b> — ручной ввод параметров узла.',
-      s2note: 'Профилей может быть несколько (разные серверы или технологии — VLESS и NaiveProxy). Все ваши серверы будут доступны для выбора.',
-      s3h: 'Выберите сервер и подключитесь',
-      s3i1: 'Откройте список серверов и <b>выберите узел</b>.',
-      s3i2: 'Нажмите большую круглую кнопку — это <b>Connect</b>.',
-      s3i3: '<b>Жёлтый</b> — подключается, <b>зелёный</b> — подключено. Повторное нажатие — <b>Disconnect</b>.',
-      s3i4: 'Сменить сервер можно на лету — приложение аккуратно переподключится.',
-      s4h: 'Выберите, какие приложения идут через VPN',
-      s4sub: 'Тот самый шаг, без которого «VPN не работает». Отмеченные программы идут через туннель, остальные — обычной сетью.',
-      s4a1: 'Откройте <span class="path">Настройки → Split tunneling</span>.',
-      s4a2: 'Найдите нужные приложения и <b>отметьте их</b>.',
-      s4a3: 'В первый раз система попросит <b>разрешение на VPN</b> — подтвердите.',
-      s4w1: 'На главном экране выберите режим <b>«Туннель приложений»</b> (вторая карточка, рядом с «Прокси») — откроется его настройка. Включите тумблер.',
-      s4w2: '<b>Выберите программы</b> (или добавьте <code>.exe</code> через «Browse»).',
-      s4w3: 'Нажмите <b>Connect</b> — приложение один раз запросит права администратора, перезапустится и подключится.',
-      s4w4: 'Выбранный <b>браузер целиком</b> идёт через VPN, кроме сайтов, локальных по GeoIP (российских) — они напрямую, <b>в том же браузере</b>.',
-      s4wnote: '<b>Права администратора нужны один раз за запуск</b> — так устроен Windows: приложению нужно создать сетевой адаптер для туннеля. Отмена запроса просто не даст включить App Tunnel.',
-      s4danger: '<b>Банки, госуслуги, операторы и экосистемы (Яндекс, VK) через VPN не пускаются никогда</b> — даже если отметить. Это защита: такие приложения должны видеть ваш настоящий адрес. Так и задумано.',
-      s5h: 'Kill switch — «VPN или ничего»',
-      s5p: 'Выбранная программа <b>не выходит в интернет, если туннель упал или выключен</b>. Как только связь восстановится — доступ вернётся сам.',
-      s5w: 'В режиме App Tunnel kill switch <b>включён всегда</b> и снимается на Disconnect. Если выбранная программа офлайн — подключитесь заново.',
-      s6h: 'Виджеты на рабочем столе',
-      s6sub: 'Только Android — управляйте туннелем, не открывая приложение.',
-      s6i1: 'Вынесите виджет на главный экран (долгое нажатие → Виджеты).',
-      s6i2: '<b>Включайте и выключайте</b> VPN одним касанием.',
-      s6i3: 'В крупных виджетах — <b>список серверов</b>: переключайте узел с рабочего стола.',
-      s6i4: 'Виджеты <b>подстраиваются под размер</b> ячейки лаунчера.',
+      lede: 'Несколько простых шагов от установки до работающего VPN — и ответы на частые вопросы. Вверху выберите свою систему: Android или Windows.',
+      keyH: 'Главное, что нужно знать',
+      keyPa: 'На телефоне через VPN идут <strong>только те приложения, которые вы отметите сами</strong>. Пока не отмечено ни одно, VPN включается, но ничего не меняется. Как отметить — в шаге «Выберите приложения».',
+      keyPw: 'На компьютере сначала <strong>выберите режим</strong>: весь компьютер через VPN или только отдельные программы. Если не уверены — выбирайте <strong>«Весь компьютер»</strong>. Подробнее — в шаге «Выберите режим».',
+
+      instH: 'Установите приложение',
+      instA1: 'Скачайте файл <b>APK</b> и откройте его.',
+      instA2: 'Если телефон предупредит — разрешите <b>установку из этого источника</b>.',
+      instA3: 'Новая версия ставится <b>поверх</b> старой — серверы и настройки сохраняются.',
+      instW1: 'Распакуйте архив <b>целиком</b> в свою папку, например <span class="path">C:\\CodexOfConnect</span>. На рабочий стол положите только ярлык.',
+      instW2: 'Запустите <span class="path">codex_of_connect.exe</span>.',
+      instW3: 'Остальные файлы в папке нужны для работы. <b>Не удаляйте их</b> и не запускайте программу прямо из архива.',
+      instWplace: '<b>Почему своя папка.</b> Программа обновляется сама, записывая новую версию в свою папку. Поэтому папка должна быть вашей: <span class="path">C:\\CodexOfConnect</span> подойдёт.',
+      instWavoid: '<b>Куда класть нельзя:</b> в <span class="path">Program Files</span>, на флешку, на сетевой диск, а также на Рабочий стол или в Документы, если у вас включён OneDrive. Там обновление не сможет встать. И не переносите папку после установки.',
+
+      srvH: 'Добавьте сервер',
+      srvSub: 'Ключ или ссылку вам даёт владелец сервера. Откройте вкладку <b>«Профили»</b> и нажмите <b>«Добавить профиль»</b>. Выберите удобный способ:',
+      srv1: '<b>«Вставить из буфера»</b> — если вы скопировали ключ или ссылку.',
+      srv2: '<b>«Вставить ссылку»</b> — вставить ссылку вручную.',
+      srv3: '<b>«Сканировать QR-код»</b> — навести камеру на QR-код. Ключ из QR-кода добавляется даже без интернета.',
+      srv4: '<b>«Импорт файла конфигурации»</b> — если вам прислали файл.',
+      srv5: '<b>«Ручная настройка»</b> — для опытных: ввести данные сервера вручную.',
+      srvNote: 'Ссылка-подписка должна начинаться с <code>https://</code>. Подписка обновляется сама, если у профиля включено <b>«Авто-обновление»</b>; обновить вручную можно значком обновления рядом с профилем.',
+
+      conH: 'Подключитесь',
+      con1: 'Выберите сервер в списке.',
+      con2: 'Нажмите <b>большую круглую кнопку</b> на главном экране.',
+      con3: 'Надпись <b>«Подключено и защищено»</b> — всё работает. Ещё одно нажатие — отключиться.',
+      con4a: 'В первый раз телефон спросит разрешение на VPN — нажмите <b>«ОК»</b>.',
+      con5: 'Сервер можно сменить на ходу — приложение само переподключится. Если пропала сеть, оно тоже само подключится снова, когда сеть вернётся.',
+
+      appsH: 'Выберите приложения',
+      appsSub: 'Без этого шага VPN ничего не меняет. Отмеченные приложения идут через VPN, остальные — как обычно.',
+      apps1: 'Откройте <b>«Настройки»</b> → раздел <b>«Split tunneling»</b> → <b>«Выбрать приложения»</b>.',
+      apps2: 'Отметьте нужные: обычно браузер, YouTube, мессенджеры. Сверху — группа <b>«Рекомендуемые»</b>, есть поиск.',
+      apps3: 'Если VPN уже был включён — выключите и включите его снова, чтобы выбор точно применился.',
+      appsBanks: '<b>Банки, Госуслуги, операторы связи, Яндекс и VK через VPN не идут никогда</b>, даже если их отметить. Это защита: с чужим адресом они могут заблокировать вход.',
+
+      modeH: 'Выберите режим',
+      modeSub: 'На главном экране есть три карточки. Нажмите нужную.',
+      mode1: '<b>«Весь компьютер»</b> — все программы через VPN, российские сайты напрямую. <b>Самый простой вариант, если не уверены.</b>',
+      mode2: '<b>«Туннель приложений»</b> — через VPN идут только программы, которые вы выберете. Всё остальное — как обычно.',
+      mode3: '<b>«Прокси»</b> — работает только с браузерами и программами, которые умеют работать через прокси. Права администратора не нужны.',
+      modeNote: 'Для «Весь компьютер» и «Туннель приложений» Windows попросит <b>разрешение администратора</b> при подключении — нажмите «Да». Если VPN уже включён, новый режим заработает после переподключения.',
+
+      fullH: '«Весь компьютер»: исключения и защита',
+      fullSub: 'Под карточкой «Весь компьютер» есть две строки. Обе необязательные.',
+      exclTag: 'Исключения',
+      excl1: 'Программы, которые должны работать <b>без VPN</b>, — например, игра или банк-клиент.',
+      excl2: 'Нажмите строку <b>«Исключения»</b> и отметьте программы. Программа выбирается целиком, со всеми её файлами.',
+      excl3: 'Если нужной программы нет в списке, добавьте её через <b>«Обзор .exe»</b>.',
+      protTag: 'Только через VPN',
+      prot1: 'Программы, которым <b>нельзя в интернет без VPN</b>, — чтобы ваш настоящий адрес никогда не был виден.',
+      prot2: 'Нажмите строку <b>«Только через VPN»</b> и отметьте программы. Защита включится при следующем подключении.',
+      prot3: 'Если VPN выключен, ещё не запустился после включения компьютера или упал, эти программы <b>остаются без интернета</b>. Остальные работают как обычно.',
+      prot4: 'Защита сама не снимается — даже после отключения VPN и перезагрузки. Снять её можно только кнопкой <b>«Снять защиту»</b> на том же экране.',
+      fullNote: 'Одна программа не может быть одновременно в «Исключениях» и в «Только через VPN». Изменения действуют со следующего подключения.',
+
+      atH: '«Туннель приложений»',
+      atSub: 'Если нужно, чтобы через VPN шли только отдельные программы.',
+      at1: 'Нажмите карточку <b>«Туннель приложений»</b> и включите переключатель вверху.',
+      at2: 'Отметьте программы. Сверху — группа <b>«Выходили в интернет»</b>: программы, которые недавно работали с сетью. Нет нужной — <b>«Обзор .exe»</b>.',
+      at3: 'Выбранные программы работают <b>только через VPN</b>: если VPN выключен или упал, у них нет интернета. Так задумано — ваш адрес не утечёт.',
+      at4: 'Чтобы вернуть этим программам обычный интернет, нажмите <b>«Снять kill switch»</b> внизу экрана. Отключение VPN этого не делает.',
+
+      blkH: '«У меня блокировки»',
+      blkP: 'Если VPN перестал работать на мобильном интернете (оператор режет связь с зарубежными серверами), поставьте галочку <b>«У меня блокировки»</b> под большой кнопкой.',
+      blk1: 'Подключение пойдёт через промежуточный сервер в России. Ключ, сервер и адрес в интернете остаются прежними.',
+      blk2: 'Если написано «Промежуточных серверов пока нет», обновите подписку или спросите владельца сервера.',
+      blk3: 'Когда всё снова работает и без галочки — уберите её: напрямую быстрее.',
+
+      bgH: 'Чтобы телефон не выключал VPN',
+      bgP: 'Некоторые телефоны сами закрывают приложения в фоне — вместе с VPN. Если на главном экране появилась карточка <b>«Разрешите VPN работать в фоне»</b>, нажмите <b>«Разрешить»</b>. Для некоторых марок нужно ещё одно разрешение в настройках телефона:',
+      bg1: '<b>Xiaomi / Redmi / POCO:</b> Настройки → Приложения → Codex of Connect → <b>Автозапуск</b> — вкл.; там же «Экономия батареи» → <b>Без ограничений</b>.',
+      bg2: '<b>Huawei / Honor:</b> Настройки → Приложения → Codex of Connect → Батарея → <b>Запуск приложения</b> → «Управлять вручную», включить все три: автозапуск, косвенный запуск, работа в фоне.',
+      bg3: '<b>Samsung:</b> Настройки → Батарея → <b>Ограничения фонового ПО</b> → «Приложения, не переходящие в сон» → добавить Codex of Connect.',
+      bg4: '<b>Oppo / Realme / vivo:</b> Настройки → Батарея → <b>Автозапуск</b> (или «Фоновая активность») → включить для Codex of Connect.',
+      bg5: 'И на любом телефоне: не смахивайте приложение из списка недавних — или закрепите его там замком.',
+
+      wdgH: 'Виджеты',
+      wdg1: 'Добавьте виджет на главный экран: долгое нажатие на пустом месте → <b>Виджеты</b> → Codex of Connect.',
+      wdg2: 'Включайте и выключайте VPN <b>одним касанием</b>, не открывая приложение.',
+      wdg3: 'В больших виджетах можно сменить сервер.',
+
+      trayH: 'Автозапуск и трей',
+      tray1: 'Чтобы VPN был под рукой сразу после включения компьютера: <b>«Настройки»</b> → <b>«Поведение окна»</b> → <b>«Запуск вместе с Windows»</b>.',
+      tray2: 'Если закрыть окно при включённом VPN, программа уйдёт в трей (значок у часов) и VPN продолжит работать. Полный выход — правый клик по значку → <b>Exit</b>.',
+      tray3: 'Программы, которым важно не выйти в интернет до запуска VPN, добавьте в <b>«Только через VPN»</b> (режим «Весь компьютер»).',
+
+      bakH: 'Перенос на новое устройство',
+      bak1: 'Перед переустановкой или сменой телефона/компьютера: <b>«Настройки»</b> → <b>«Резервная копия»</b> → <b>«Экспорт настроек»</b>.',
+      bak2: '<b>«С паролями»</b> — сохранятся и серверы. <b>«Без паролей»</b> — только настройки и выбор приложений, серверы потом добавите заново.',
+      bak3: 'На новом устройстве: <b>«Импорт настроек»</b> и выберите сохранённый файл.',
+      bakNote: 'Файл <b>«С паролями»</b> — это ключ от сервера. Никому его не пересылайте и не храните в облаке.',
+
+      absH: 'Если вы за границей',
+      absP: 'Этот режим нужен, только если вы <b>за границей</b> и подключаетесь к серверу <b>в России</b> — например, чтобы открывались российские сайты и банки.',
+      abs1: 'Отключите VPN, затем <b>«Настройки»</b> → <b>«Где вы находитесь»</b> → <b>«Я за границей»</b>.',
+      abs2: 'Часто сервер сам сообщает приложению, где он стоит, — тогда переключатель недоступен, и делать ничего не нужно.',
+
       updH: 'Обновления',
-      updA: 'Скачайте новый APK и установите <b>поверх</b> — ключи и настройки сохранятся.',
-      updW: 'Встроенный апдейтер: две кнопки — <b>скачать</b> и <b>установить поверх</b>. Он копирует новую сборку <b>поверх своей папки</b>, поэтому папка должна быть записываемой без прав администратора (см. Шаг 1). Если обновление не встало, рядом с exe останется <span class="path">coc-update.log</span> — пришлите его.',
+      updA: 'Если вверху появилось «Обновите приложение» — нажмите <b>«Обновить»</b>. Проверить вручную: <b>«Настройки»</b> → <b>«О программе»</b> → <b>«Проверить обновления»</b> → <b>Download &amp; install</b>. Новая версия ставится поверх, всё сохраняется.',
+      updW: '<b>«Настройки»</b> → <b>«О программе»</b> → <b>«Проверить обновления»</b> → <b>Download &amp; update</b>. Программа сама скачает и поставит новую версию в свою папку. Если обновление не встало, рядом с программой останется файл <span class="path">coc-update.log</span> — пришлите его.',
+
       faqH: 'Частые вопросы',
-      faq1q: 'Подключился, но сайты открываются как обычно — VPN не работает?',
-      faq1a: 'Скорее всего вы не выбрали приложения — это <b>Шаг&nbsp;4</b>. Android: <span class="path">Настройки → Split tunneling</span>. Windows: <span class="path">Настройки → App Tunnel</span>.',
-      faq2q: 'Банк или Госуслуги не работают через VPN',
-      faq2a: 'Так и задумано. Банки, госсервисы, операторы и крупные экосистемы всегда идут мимо VPN — с чужого адреса они могут заблокировать вход.',
-      faq3q: 'Windows просит права администратора',
-      faq3a: 'Это нужно только для режима <b>App Tunnel</b>: чтобы вести отдельные программы через туннель, Windows требует создать сетевой адаптер. Запрос появляется один раз за запуск. Обычный режим (прокси) прав не требует.',
-      faq4q: 'Выбранная программа осталась без интернета',
-      faq4a: 'Это kill switch: туннель упал или выключен. Нажмите <b>Connect</b> — доступ вернётся. На Windows App Tunnel полностью снять блокировку можно кнопкой «Remove kill switch».',
-      faq5q: 'Не подключается / нет серверов',
-      faq5a: 'Проверьте, что вы <b>добавили ключ</b> (Шаг&nbsp;2) и <b>выбрали сервер</b> (Шаг&nbsp;3). Не подходит сервер — попробуйте другой. На Windows держите файлы движка в папке с приложением.',
-      faq6q: 'Android: VPN отваливается через некоторое время',
-      faq6a: 'Приложение само поднимает туннель после того, как система выгрузит его из памяти. Но «агрессивные» прошивки нужно один раз попросить не мешать приложению работать в фоне — иначе система не даёт сервису вернуться. Это настройки самой прошивки, а не приложения:<br><br><b>Xiaomi / Redmi / POCO (MIUI):</b> Настройки → Приложения → Codex of Connect → <b>Автозапуск</b> = вкл; там же «Экономия батареи» → <b>Без ограничений</b>.<br><br><b>Huawei / Honor (EMUI):</b> Настройки → Приложения → Codex of Connect → Батарея → <b>Запуск приложения</b> → «Управлять вручную» и включить все три: автозапуск, дополнительный запуск, работа в фоне.<br><br><b>Samsung (One UI):</b> Настройки → Батарея → <b>Ограничения фонового ПО</b> → «Приложения, не переходящие в сон» → добавить Codex of Connect.<br><br><b>Oppo / Realme / vivo:</b> Настройки → Батарея → <b>Автозапуск</b> (или «Разрешить фоновую активность») → включить для Codex of Connect.<br><br>На всех дополнительно: Настройки → Приложения → Codex of Connect → Батарея → <b>Не ограничивать</b>.',
-      foot1: 'Codex&nbsp;of&nbsp;Connect — личный VPN-клиент на движке sing-box.',
-      foot2: 'IPv6 и «российские сайты напрямую» включены по умолчанию.'
+      faq1q: 'VPN подключён, а ничего не изменилось',
+      faq1aA: 'Скорее всего, не отмечены приложения. Откройте <b>«Настройки»</b> → <b>«Split tunneling»</b> → <b>«Выбрать приложения»</b> и отметьте браузер или нужное приложение.',
+      faq1aW: 'Проверьте режим на главном экране. В режиме «Прокси» через VPN идут только браузеры и программы с поддержкой прокси. Выберите <b>«Весь компьютер»</b> и переподключитесь.',
+      faq2q: 'Банк или Госуслуги не работают',
+      faq2a: 'Банки, Госуслуги и другие российские сервисы всегда идут напрямую, мимо VPN, — иначе они могут заблокировать вход. Если они всё равно не открываются, проблема не в VPN: попробуйте отключить его и проверить ещё раз.',
+      faq3q: 'Не подключается',
+      faq3a: 'Проверьте, что сервер добавлен и выбран. Попробуйте другой сервер из списка. На мобильном интернете попробуйте галочку <b>«У меня блокировки»</b>. Не помогло — откройте <b>«Настройки»</b> → <b>«Диагностика»</b> → <b>«Открыть журнал»</b> → <b>«Поделиться»</b> и пришлите журнал владельцу сервера. Адреса серверов в журнале скрыты.',
+      faq4q: 'Windows просит права администратора',
+      faq4a: 'Так и должно быть в режимах «Весь компьютер» и «Туннель приложений»: Windows разрешает направлять программы через VPN только с правами администратора. Нажмите «Да». Режиму «Прокси» права не нужны.',
+      faq5q: 'Программа осталась без интернета',
+      faq5a: 'Скорее всего, она в списке <b>«Только через VPN»</b> или в «Туннеле приложений», а VPN сейчас выключен. Подключите VPN — интернет вернётся. Если программе нужен интернет и без VPN, снимите защиту кнопкой <b>«Снять защиту»</b> (или <b>«Снять kill switch»</b> в «Туннеле приложений»).',
+      faq6q: 'VPN отключается сам через какое-то время',
+      faq6a: 'Это телефон закрывает приложение в фоне для экономии батареи. Дайте разрешение на работу в фоне — см. шаг «Чтобы телефон не выключал VPN». Приложение и само старается поднять VPN снова, но телефон может ему мешать.',
+      faq7q: '«VPN забрало другое VPN-приложение»',
+      faq7a: 'На устройстве одновременно может работать только один VPN. Закройте другое VPN-приложение и снова нажмите большую кнопку.',
+      faq8q: 'Ссылка не добавляется',
+      faq8a: 'Ссылка-подписка должна начинаться с <code>https://</code> — ссылки <code>http://</code> не принимаются ради безопасности. Скопируйте ссылку целиком, без пробелов. Если всё равно не выходит — попросите у владельца сервера новую.',
+
+      foot1: 'Codex&nbsp;of&nbsp;Connect — личный VPN-клиент.',
+      foot2: 'Российские сайты и банки всегда идут напрямую.'
     },
     en: {
       brandSub: '· user guide',
       eyebrow: 'Personal VPN · Android & Windows',
       title: 'How to use Codex&nbsp;of&nbsp;Connect',
-      lede: 'Five steps from install to a working tunnel — plus answers to the questions everyone has the first time.',
-      keyH: 'The one thing to understand first',
-      keyP: 'Only the apps <strong>you tick go through the VPN</strong>. Until you pick at least one, the connection is up but all traffic goes as usual, outside the VPN. That is not a bug — it is a safeguard. Picking apps is <strong>Step&nbsp;4</strong>, and without it "nothing changes".',
-      s1h: 'Install the app',
-      s1a1: 'Download the <b>APK</b> and open it.',
-      s1a2: 'If prompted, allow <b>installing from this source</b>.',
-      s1a3: 'Updates install <b>over</b> the old version — your data and keys are kept.',
-      s1w1: 'Unpack the <b>whole zip</b> into a folder you own — e.g. <span class="path">C:\\CodexOfConnect</span>. Put only a shortcut on the desktop.',
-      s1w2: 'Run <span class="path">codex_of_connect.exe</span>.',
-      s1w3: 'The files <span class="path">sing-box.exe</span>, <span class="path">libcronet.dll</span> and <span class="path">wintun.dll</span> next to it are the engine. <b>Don’t delete them.</b>',
-      s1w4: '<b>Never run the app straight from the zip archive.</b> Explorer silently unpacks it into a temp folder: an update would land there and vanish, and double-clicking the archive would reopen the old version every time.',
-      s1wplace: '<b>Where to put it.</b> The app updates by copying the new build over its own folder, so the folder must belong to you and be writable without admin rights. <span class="path">C:\\CodexOfConnect</span> or <span class="path">%LOCALAPPDATA%\\Programs\\CodexOfConnect</span> both work.',
-      s1wavoid: '<b>Where NOT to put it:</b> <span class="path">Program Files</span> (protected — the updater will honestly refuse); Desktop/Documents/Downloads with <b>OneDrive</b> on (the sync agent holds files open, replacement fails); flash drives and network shares. And don’t move the folder afterwards — autostart remembers the path.',
-      s2h: 'Add a server (key)',
-      s2sub: 'The <span class="path">Profiles</span> screen → <b>Add profile</b>. Options:',
-      s2i1: '<b>Paste from clipboard</b> — paste a key from the clipboard.',
-      s2i2: '<b>Paste URL or link</b> — a subscription link or a direct <code>vless://</code> / <code>naive://</code> node.',
-      s2i3: '<b>Import config file</b> — a file with a list of links.',
-      s2i4: '<b>Manual configuration</b> — enter node parameters by hand.',
-      s2note: 'You can have several profiles (different servers or protocols — VLESS and NaiveProxy). All your servers are available to pick.',
-      s3h: 'Pick a server and connect',
-      s3i1: 'Open the server list and <b>pick a node</b>.',
-      s3i2: 'Tap the big round button — that is <b>Connect</b>.',
-      s3i3: '<b>Yellow</b> — connecting, <b>green</b> — connected. Tap again to <b>Disconnect</b>.',
-      s3i4: 'You can switch servers on the fly — the app reconnects cleanly.',
-      s4h: 'Choose which apps go through the VPN',
-      s4sub: 'The step people miss when "the VPN doesn’t work". Ticked programs go through the tunnel; the rest use your normal network.',
-      s4a1: 'Open <span class="path">Settings → Split tunneling</span>.',
-      s4a2: 'Find the apps you want and <b>tick them</b>.',
-      s4a3: 'The first time, the system asks for <b>VPN permission</b> — confirm it.',
-      s4w1: 'On the main screen pick the <b>"App Tunnel"</b> mode (the second card, next to "Proxy") — its settings open. Turn the toggle on.',
-      s4w2: '<b>Pick programs</b> (or add an <code>.exe</code> via "Browse").',
-      s4w3: 'Tap <b>Connect</b> — the app asks for admin rights once, restarts elevated and connects.',
-      s4w4: 'A picked <b>browser goes fully</b> through the VPN, except sites GeoIP marks as local — those go direct, <b>in the same browser</b>.',
-      s4wnote: '<b>Admin rights are needed once per launch</b> — that is how Windows works: the app must create a network adapter for the tunnel. Declining just prevents App Tunnel from starting.',
-      s4danger: '<b>Banks, government services, carriers and big ecosystems (Yandex, VK) never go through the VPN</b> — even if ticked. It is a safeguard: they must see your real address, or they may block sign-in. This is intended.',
-      s5h: 'Kill switch — "VPN or nothing"',
-      s5p: 'A picked program <b>gets no internet if the tunnel drops or is off</b>. As soon as the link is back, access returns on its own.',
-      s5w: 'In App Tunnel mode the kill switch is <b>always on</b> and lifts on Disconnect. If a picked program is offline, just connect again.',
-      s6h: 'Home-screen widgets',
-      s6sub: 'Android only — control the tunnel without opening the app.',
-      s6i1: 'Place a widget on the home screen (long-press → Widgets).',
-      s6i2: '<b>Turn the VPN on and off</b> with one tap.',
-      s6i3: 'Larger widgets show a <b>server list</b>: switch nodes from the home screen.',
-      s6i4: 'Widgets <b>adapt to the size</b> of your launcher’s cell.',
+      lede: 'A few simple steps from install to a working VPN, plus answers to common questions. Pick your system at the top: Android or Windows.',
+      keyH: 'The main thing to know',
+      keyPa: 'On a phone, only the apps <strong>you tick yourself</strong> go through the VPN. Until you tick at least one, the VPN turns on but nothing changes. How to tick them — see the step “Pick apps”.',
+      keyPw: 'On a computer, first <strong>pick a mode</strong>: the whole computer through the VPN, or only selected programs. If unsure, pick <strong>“Whole computer”</strong>. More in the step “Pick a mode”.',
+
+      instH: 'Install the app',
+      instA1: 'Download the <b>APK</b> file and open it.',
+      instA2: 'If the phone warns you, allow <b>installing from this source</b>.',
+      instA3: 'A new version installs <b>over</b> the old one — your servers and settings are kept.',
+      instW1: 'Unpack the <b>whole</b> archive into a folder of your own, e.g. <span class="path">C:\\CodexOfConnect</span>. Put only a shortcut on the desktop.',
+      instW2: 'Run <span class="path">codex_of_connect.exe</span>.',
+      instW3: 'The other files in the folder are needed. <b>Don’t delete them</b>, and don’t run the app straight from the archive.',
+      instWplace: '<b>Why a folder of your own.</b> The app updates itself by writing the new version into its folder, so the folder must be yours. <span class="path">C:\\CodexOfConnect</span> works.',
+      instWavoid: '<b>Where not to put it:</b> <span class="path">Program Files</span>, a flash drive, a network drive, or the Desktop/Documents when OneDrive is on — updates can’t be installed there. And don’t move the folder after installing.',
+
+      srvH: 'Add a server',
+      srvSub: 'The server owner gives you a key or a link. Open the <b>Profiles</b> tab and tap <b>Add profile</b>. Pick a way:',
+      srv1: '<b>Paste from clipboard</b> — if you copied a key or a link.',
+      srv2: '<b>Paste URL or link</b> — type or paste the link yourself.',
+      srv3: '<b>Scan QR code</b> — point the camera at a QR code. A key from a QR code is added even without internet.',
+      srv4: '<b>Import config file</b> — if you were sent a file.',
+      srv5: '<b>Manual configuration</b> — for experienced users: enter the server details by hand.',
+      srvNote: 'A subscription link must start with <code>https://</code>. The subscription updates itself when <b>Auto-update</b> is on for the profile; to update by hand, tap the refresh icon next to the profile.',
+
+      conH: 'Connect',
+      con1: 'Pick a server in the list.',
+      con2: 'Tap the <b>big round button</b> on the main screen.',
+      con3: '<b>“Connected &amp; secured”</b> means it works. Tap again to disconnect.',
+      con4a: 'The first time, the phone asks for VPN permission — tap <b>OK</b>.',
+      con5: 'You can switch servers on the fly — the app reconnects by itself. If the network drops, it reconnects by itself when the network is back.',
+
+      appsH: 'Pick apps',
+      appsSub: 'Without this step the VPN changes nothing. Ticked apps go through the VPN, the rest work as usual.',
+      apps1: 'Open <b>Settings</b> → <b>Split tunneling</b> → <b>Pick apps</b>.',
+      apps2: 'Tick the ones you need: usually a browser, YouTube, messengers. <b>Recommended</b> is at the top, and there is search.',
+      apps3: 'If the VPN was already on, turn it off and on again so the choice surely applies.',
+      appsBanks: '<b>Banks, government services, mobile carriers, Yandex and VK never go through the VPN</b>, even if ticked. This is a safeguard: from another address they may block sign-in.',
+
+      modeH: 'Pick a mode',
+      modeSub: 'The main screen has three cards. Tap the one you need.',
+      mode1: '<b>Whole computer</b> — all programs through the VPN, Russian sites directly. <b>The simplest choice if unsure.</b>',
+      mode2: '<b>App Tunnel</b> — only the programs you pick go through the VPN. Everything else works as usual.',
+      mode3: '<b>Proxy</b> — works only with browsers and programs that support a proxy. No admin rights needed.',
+      modeNote: 'For “Whole computer” and “App Tunnel”, Windows asks for <b>administrator permission</b> when you connect — click “Yes”. If the VPN is already on, the new mode takes effect after you reconnect.',
+
+      fullH: '“Whole computer”: exclusions and protection',
+      fullSub: 'Under the “Whole computer” card there are two lines. Both are optional.',
+      exclTag: 'Exclusions',
+      excl1: 'Programs that must work <b>without the VPN</b> — for example, a game or a banking client.',
+      excl2: 'Tap the <b>Exclusions</b> line and tick programs. A program is picked as a whole, with all its files.',
+      excl3: 'If a program is not in the list, add it with <b>Browse .exe</b>.',
+      protTag: 'VPN only',
+      prot1: 'Programs that <b>must never go online without the VPN</b> — so your real address is never seen.',
+      prot2: 'Tap the <b>VPN only</b> line and tick programs. Protection turns on at the next connect.',
+      prot3: 'If the VPN is off, has not started yet after the computer boots, or has dropped, these programs <b>stay offline</b>. Everything else works as usual.',
+      prot4: 'Protection does not lift by itself — not after disconnecting, not after a reboot. Only the <b>Remove protection</b> button on the same screen removes it.',
+      fullNote: 'A program can’t be in both “Exclusions” and “VPN only”. Changes apply from the next connect.',
+
+      atH: '“App Tunnel”',
+      atSub: 'When you want only some programs to go through the VPN.',
+      at1: 'Tap the <b>App Tunnel</b> card and turn on the switch at the top.',
+      at2: 'Tick programs. At the top is <b>Went online</b>: programs that recently used the network. Not there? Use <b>Browse .exe</b>.',
+      at3: 'Picked programs work <b>only through the VPN</b>: if the VPN is off or drops, they have no internet. That is by design — your address won’t leak.',
+      at4: 'To give these programs normal internet back, tap <b>Remove kill switch</b> at the bottom of the screen. Disconnecting does not do that.',
+
+      blkH: '“I have blocks”',
+      blkP: 'If the VPN stopped working on mobile internet (the carrier cuts connections to foreign servers), tick <b>I have blocks</b> under the big button.',
+      blk1: 'The connection goes through a relay server in Russia. Your key, server and internet address stay the same.',
+      blk2: 'If it says “No relay servers yet”, update the subscription or ask the server owner.',
+      blk3: 'When things work again without the tick, remove it: a direct connection is faster.',
+
+      bgH: 'Keep the phone from turning the VPN off',
+      bgP: 'Some phones close apps in the background — together with the VPN. If the main screen shows <b>Let the VPN run in the background</b>, tap <b>Allow</b>. Some brands need one more permission in the phone settings:',
+      bg1: '<b>Xiaomi / Redmi / POCO:</b> Settings → Apps → Codex of Connect → <b>Autostart</b> on; Battery saver → <b>No restrictions</b>.',
+      bg2: '<b>Huawei / Honor:</b> Settings → Apps → Codex of Connect → Battery → <b>App launch</b> → “Manage manually”, turn on all three: auto-launch, secondary launch, run in background.',
+      bg3: '<b>Samsung:</b> Settings → Battery → <b>Background usage limits</b> → “Never sleeping apps” → add Codex of Connect.',
+      bg4: '<b>Oppo / Realme / vivo:</b> Settings → Battery → <b>Auto-launch</b> (or “Background activity”) → turn on for Codex of Connect.',
+      bg5: 'And on any phone: don’t swipe the app away from Recents — or lock it there.',
+
+      wdgH: 'Widgets',
+      wdg1: 'Add a widget to the home screen: long-press an empty spot → <b>Widgets</b> → Codex of Connect.',
+      wdg2: 'Turn the VPN on and off with <b>one tap</b>, without opening the app.',
+      wdg3: 'Larger widgets let you switch servers.',
+
+      trayH: 'Autostart and tray',
+      tray1: 'To have the VPN ready right after the computer starts: <b>Settings</b> → <b>Window behavior</b> → <b>Run at Windows startup</b>.',
+      tray2: 'If you close the window while the VPN is on, the app goes to the tray (the icon by the clock) and the VPN keeps working. To quit fully, right-click the icon → <b>Exit</b>.',
+      tray3: 'Programs that must not go online before the VPN starts — add them to <b>VPN only</b> (“Whole computer” mode).',
+
+      bakH: 'Moving to a new device',
+      bak1: 'Before reinstalling or changing phone/computer: <b>Settings</b> → <b>Backup</b> → <b>Export settings</b>.',
+      bak2: '<b>With passwords</b> — servers are saved too. <b>Without passwords</b> — only settings and picked apps; you add the servers again later.',
+      bak3: 'On the new device: <b>Import settings</b> and pick the saved file.',
+      bakNote: 'A file <b>with passwords</b> is a key to the server. Don’t send it to anyone and don’t keep it in the cloud.',
+
+      absH: 'If you are abroad',
+      absP: 'This mode is only for when you are <b>outside Russia</b> and connect to a server <b>in Russia</b> — for example, so Russian sites and banks open.',
+      abs1: 'Disconnect the VPN, then <b>Settings</b> → <b>Where you are</b> → <b>I am outside Russia</b>.',
+      abs2: 'Often the server tells the app where it is — then the switch is locked and you don’t need to do anything.',
+
       updH: 'Updates',
-      updA: 'Download the new APK and install it <b>over</b> the old one — keys and settings are kept.',
-      updW: 'Built-in updater: two buttons — <b>download</b> and <b>install over</b>. It copies the new build <b>over its own folder</b>, so the folder must be writable without admin rights (see Step 1). If an update fails, <span class="path">coc-update.log</span> is left next to the exe — send it to us.',
+      updA: 'If “Please update the app” appears at the top, tap <b>Update</b>. To check by hand: <b>Settings</b> → <b>About</b> → <b>Check for updates</b> → <b>Download &amp; install</b>. The new version installs over the old one, everything is kept.',
+      updW: '<b>Settings</b> → <b>About</b> → <b>Check for updates</b> → <b>Download &amp; update</b>. The app downloads and installs the new version into its folder. If an update fails, a <span class="path">coc-update.log</span> file is left next to the app — send it to us.',
+
       faqH: 'FAQ',
-      faq1q: 'Connected, but sites open as usual — the VPN isn’t working?',
-      faq1a: 'Most likely you haven’t picked any apps — that is <b>Step&nbsp;4</b>. Android: <span class="path">Settings → Split tunneling</span>. Windows: <span class="path">Settings → App Tunnel</span>.',
-      faq2q: 'My bank or government app doesn’t work through the VPN',
-      faq2a: 'That is intended. Banks, government services, carriers and big ecosystems always bypass the VPN — from another address they may block sign-in.',
-      faq3q: 'Windows asks for administrator rights',
-      faq3a: 'Only for <b>App Tunnel</b> mode: to route individual programs through the tunnel, Windows must create a network adapter. The prompt appears once per launch. The normal (proxy) mode needs no admin rights.',
-      faq4q: 'A picked program has no internet',
-      faq4a: 'That is the kill switch: the tunnel dropped or is off. Tap <b>Connect</b> and access returns. On Windows App Tunnel you can fully clear it with "Remove kill switch".',
-      faq5q: 'Won’t connect / no servers',
-      faq5a: 'Check that you <b>added a key</b> (Step&nbsp;2) and <b>picked a server</b> (Step&nbsp;3). If a server is down, try another. On Windows keep the engine files in the app folder.',
-      faq6q: 'Android: the VPN drops after a while',
-      faq6a: 'The app brings the tunnel back on its own after the system unloads it. But "aggressive" vendor skins need a one-time permission to run in the background, otherwise the OS won’t let the service return. These are OS settings, not the app:<br><br><b>Xiaomi / Redmi / POCO (MIUI):</b> Settings → Apps → Codex of Connect → <b>Autostart</b> = on; and Battery saver → <b>No restrictions</b>.<br><br><b>Huawei / Honor (EMUI):</b> Settings → Apps → Codex of Connect → Battery → <b>App launch</b> → "Manage manually" and enable all three: auto-launch, secondary launch, run in background.<br><br><b>Samsung (One UI):</b> Settings → Battery → <b>Background usage limits</b> → "Never sleeping apps" → add Codex of Connect.<br><br><b>Oppo / Realme / vivo:</b> Settings → Battery → <b>Auto-launch</b> (or "Allow background activity") → enable for Codex of Connect.<br><br>On all of them: Settings → Apps → Codex of Connect → Battery → <b>Unrestricted</b>.',
-      foot1: 'Codex&nbsp;of&nbsp;Connect — a personal VPN client on the sing-box engine.',
-      foot2: 'IPv6 and "Russian sites direct" are on by default.'
+      faq1q: 'The VPN is connected, but nothing changed',
+      faq1aA: 'Most likely no apps are ticked. Open <b>Settings</b> → <b>Split tunneling</b> → <b>Pick apps</b> and tick your browser or the app you need.',
+      faq1aW: 'Check the mode on the main screen. In “Proxy” mode only browsers and proxy-aware programs go through the VPN. Pick <b>Whole computer</b> and reconnect.',
+      faq2q: 'My bank or government site doesn’t work',
+      faq2a: 'Banks, government services and other Russian services always go directly, outside the VPN — otherwise they may block sign-in. If they still don’t open, the VPN is not the cause: turn it off and check again.',
+      faq3q: 'It won’t connect',
+      faq3a: 'Check that a server is added and selected. Try another server from the list. On mobile internet, try the <b>I have blocks</b> tick. Still nothing — open <b>Settings</b> → <b>Diagnostics</b> → <b>View activity log</b> → <b>Share</b> and send the log to the server owner. Server addresses are hidden in the log.',
+      faq4q: 'Windows asks for administrator rights',
+      faq4a: 'That is expected in “Whole computer” and “App Tunnel” modes: Windows lets programs be routed through a VPN only with administrator rights. Click “Yes”. “Proxy” mode needs no rights.',
+      faq5q: 'A program has no internet',
+      faq5a: 'Most likely it is in <b>VPN only</b> or in “App Tunnel”, and the VPN is off right now. Connect the VPN and the internet comes back. If the program needs internet without the VPN too, use <b>Remove protection</b> (or <b>Remove kill switch</b> in “App Tunnel”).',
+      faq6q: 'The VPN turns off by itself after a while',
+      faq6a: 'The phone closes the app in the background to save battery. Allow background work — see the step “Keep the phone from turning the VPN off”. The app also tries to bring the VPN back on its own, but the phone may stop it.',
+      faq7q: '“Another VPN app took over”',
+      faq7a: 'Only one VPN can run on a device at a time. Close the other VPN app and tap the big button again.',
+      faq8q: 'The link won’t add',
+      faq8a: 'A subscription link must start with <code>https://</code> — <code>http://</code> links are not accepted for safety. Copy the whole link, without spaces. If it still fails, ask the server owner for a new one.',
+
+      foot1: 'Codex&nbsp;of&nbsp;Connect — a personal VPN client.',
+      foot2: 'Russian sites and banks always go directly.'
     }
   };
 
@@ -403,13 +584,28 @@
     document.getElementById('btn-android').setAttribute('aria-pressed', String(p === 'android'));
     document.getElementById('btn-windows').setAttribute('aria-pressed', String(p === 'windows'));
     try { localStorage.setItem('coc-plat', p); } catch (e) {}
+    renumber();
+  }
+  // Номера шагов и вопросов — по видимым на выбранной платформе.
+  function renumber() {
+    function seq(sel) {
+      var n = 0;
+      document.querySelectorAll(sel).forEach(function (el) {
+        var box = el.closest('section, details');
+        if (box && box.offsetParent === null) return;
+        n++; el.textContent = (n < 10 ? '0' : '') + n;
+      });
+    }
+    seq('section .kicker .num');
+    seq('details summary .q');
   }
   (function () {
     let lang = 'ru', plat = 'android';
     try {
       lang = localStorage.getItem('coc-lang') || (navigator.language || 'ru').slice(0, 2).toLowerCase();
       if (lang !== 'ru' && lang !== 'en') lang = 'en';
-      plat = localStorage.getItem('coc-plat') || 'android';
+      plat = localStorage.getItem('coc-plat') ||
+        (/Windows/i.test(navigator.userAgent || '') ? 'windows' : 'android');
     } catch (e) {}
     setLang(lang);
     setPlat(plat);

@@ -8,6 +8,7 @@
 
 - [Приложение — как установить и пользоваться](https://zintar4435-experience.github.io/Codex-of-Connect-Releases/guide.html) (Android и Windows, RU/EN)
 - [Панель — установка и настройка сервера](https://zintar4435-experience.github.io/Codex-of-Connect-Releases/setup-guide.html)
+- [Panel — server setup guide (English)](https://zintar4435-experience.github.io/Codex-of-Connect-Releases/setup-guide.en.html)
 
 > Если открыть `.html`-файлы прямо в репозитории, GitHub покажет исходный код —
 > это нормально, пользуйтесь ссылками выше.
